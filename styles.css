@@ -16,7 +16,15 @@ main{
 	background: #fff;
 	position: absolute;
 	bottom: 0;
-	padding: 0 25%;
+	padding: 0 25% 10px 25%;
+}
+
+main h1{
+	text-align: center;
+}
+
+main p{
+	text-align: center;
 }
 
 .profilepicture{
@@ -31,6 +39,7 @@ main{
 #links{
 	margin-left: 0;
 	padding-left: 0;
+	text-align: center;
 }
 
 #links li{
