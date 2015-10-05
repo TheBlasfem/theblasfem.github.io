@@ -2,9 +2,7 @@ importScripts('serviceworker-cache-polyfill.js');
 
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '/',
-  '/styles/normalize.css',
-  '/styles/styles.css'
+  '/'
 ];
 
 self.addEventListener('install', function(event) {
